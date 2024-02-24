@@ -1,2 +1,2 @@
-# ssh-honeypotlab
-Honeypot
+# Buliding a SSH Honeypot lab 
+
