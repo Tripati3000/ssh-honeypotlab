@@ -57,3 +57,5 @@ By following these steps, you can set up an SSH Endlessh honeypot to detect and 
 11. **Edit it to "Port 22" and save the file**
 
  <img src="https://github.com/Tripati3000/ssh-honeypotlab/assets/160244601/54c92c18-2a3d-47e6-a020-7a35b70cc56a" height="80%" width="80%" alt="SIEM System steps"/>
+
+12. **Now we are ready to start endlessh So now run this code**
