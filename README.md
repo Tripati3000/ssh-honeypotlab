@@ -26,10 +26,12 @@ By following these steps, you can set up an SSH Endlessh honeypot to detect and 
 **Go to your Linux or Virtual machine and copy paste this code.**
 `git clone https://github.com/skeeto/endlessh`
 
-1.**After its done use command** `cd endlessh`
+1. **After its done use command** `cd endlessh`
 
-2.**After changing directory Use the command** `make`
+2. **After changing directory Use the command** `make`
 
-3.**Install the sudo package** `sudo apt install libc6-dev`
+3. **Install the sudo package** `sudo apt install libc6-dev`
 
-4.**Move the folder to usr/local/bin** `sudo mv endlessh /usr/local/bin/`
+4. **Move the folder to usr/local/bin** `sudo mv endlessh /usr/local/bin/`
+
+5. **Verify your folder by this command** `which endlessh`
