@@ -62,4 +62,6 @@ By following these steps, you can set up an SSH Endlessh honeypot to detect and 
 12. **Now we are ready to start endlessh So now run this code**
 
                  `sudo systemctl start endlessh`
+    
+13  **Now verify that it is running on "Port 22" by running this command**
 
