@@ -10,7 +10,7 @@ Creating an SSH Endlessh honeypot involves several steps:
 
 1. **Setting up a Linux system**: Start by setting up a Linux system where you'll run the Endlessh honeypot. You can use a virtual machine or a dedicated server for this purpose.
 
-2. **Installing Endlessh**: Clone the Endlessh repository from GitHub or download the source code. Compile it on your Linux system following the instructions provided in the repository's README file here -https://github.com/skeeto/endlessh[Endlessh]
+2. **Installing Endlessh**: Clone the Endlessh repository from GitHub or download the source code. Compile it on your Linux system following the instructions provided in the repository's README file.
 
 3. **Configuring Endlessh**: Once compiled, configure Endlessh according to your preferences. This typically involves specifying the port on which Endlessh will listen for incoming connections and adjusting any other settings as needed.
 
@@ -23,7 +23,7 @@ Creating an SSH Endlessh honeypot involves several steps:
 By following these steps, you can set up an SSH Endlessh honeypot to detect and deter potential attackers while gathering valuable insights into their activities.
 
 # Step 1
-Go to your Linux or Virtual machine and copy paste this code.
+**Go to your Linux or Virtual machine and copy paste this code.**
 `git clone https://github.com/skeeto/endlessh`
 
-After its done use command `cd endlessh`
+**After its done use command** `cd endlessh`
