@@ -53,3 +53,7 @@ By following these steps, you can set up an SSH Endlessh honeypot to detect and 
  9. **Create a folder in etc/endlessh/config**
 
                  `sudo nvim /etc/endlessh/config`
+    
+11. **Edit it to "Port 22"**
+
+ <img src="https://github.com/Tripati3000/ssh-honeypotlab/assets/160244601/26d97806-44a5-47be-9da1-b355243f1c5a" height="80%" width="80%" alt="SIEM System steps"/>
