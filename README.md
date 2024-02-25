@@ -1,4 +1,4 @@
-# Buliding a SSH Honeypot lab 
+se# Buliding a SSH Honeypot lab 
 <img src="https://github.com/Tripati3000/ssh-honeypotlab/assets/160244601/973e8a91-c640-4d6e-8107-11aa9ee5d01f    " height="80%" width="80%" alt="SIEM System steps"/>
 
 # What is a SSH Honeypot ?
@@ -45,3 +45,9 @@ By following these steps, you can set up an SSH Endlessh honeypot to detect and 
  7. **Enable the systemd server**
  
                  `sudo systemctl enable endlessh`
+
+8. **Create a configuration file**
+
+                 `mkdir -p /etc/endlessh`
+
+9.**Create a folder in etc/endlessh/config**
