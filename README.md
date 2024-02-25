@@ -74,4 +74,10 @@ By following these steps, you can set up an SSH Endlessh honeypot to detect and 
   
 
 
-# Now If anyone tries to login "port 22" the cursor will stopped at his place an delay
+# Now If anyone tries to login "port 22" the cursor will stopped at his place an delay the time of hacker
+                  
+  <img src="https://github.com/Tripati3000/ssh-honeypotlab/assets/160244601/2d28faa9-01f2-42c2-a107-5f9cc505cf5d" height="80%" width="80%" alt="SIEM System steps"/>
+
+# If he wants to see whats going on by typing "-vvv" in middle of ssh and port
+
+  **The endlessh will show up those weird random lines which are generated at each 30 seconds to the hacker and waste his     time and they stuck here forever**
