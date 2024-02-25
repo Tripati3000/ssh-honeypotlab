@@ -26,6 +26,8 @@ By following these steps, you can set up an SSH Endlessh honeypot to detect and 
 **Go to your Linux or Virtual machine and copy paste this code.**
 `git clone https://github.com/skeeto/endlessh`
 
-**After its done use command** `cd endlessh`
+1.**After its done use command** `cd endlessh`
 
-**After changing directory Use the command**
+2.**After changing directory Use the command** `make`
+
+3.**Install the sudo package**
