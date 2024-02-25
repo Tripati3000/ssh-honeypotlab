@@ -24,3 +24,4 @@ By following these steps, you can set up an SSH Endlessh honeypot to detect and 
 
 # Step 1
 Go to your Linux or Virtual machine and copy paste this code.
+`git clone https://github.com/skeeto/endlessh`
