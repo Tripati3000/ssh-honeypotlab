@@ -30,4 +30,4 @@ By following these steps, you can set up an SSH Endlessh honeypot to detect and 
 
 2.**After changing directory Use the command** `make`
 
-3.**Install the sudo package**
+3.**Install the sudo package** `sudo apt install libc6-dev`
