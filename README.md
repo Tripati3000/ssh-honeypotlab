@@ -3,3 +3,5 @@
 
 # What is a SSH Honeypot is ?
 A SSH honeypot is a security mechanism designed to detect and deflect unauthorized access attempts to a network or server by mimicking a legitimate SSH (Secure Shell) service. It operates by presenting a fake SSH server that appears real to potential attackers, enticing them to interact with it. The honeypot logs all activities, enabling administrators to analyze intrusion attempts, gather information about attackers, and enhance their overall cybersecurity defenses.
+
+# Description
