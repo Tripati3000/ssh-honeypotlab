@@ -65,3 +65,5 @@ By following these steps, you can set up an SSH Endlessh honeypot to detect and 
     
 13  **Now verify that it is running on "Port 22" by running this command**
 
+                  `netstat -tulpn | grep endlessh`
+
