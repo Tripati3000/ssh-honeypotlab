@@ -68,9 +68,10 @@ By following these steps, you can set up an SSH Endlessh honeypot to detect and 
 13.  **Now verify that it is running on "Port 22" by running this command**
 
                   `netstat -tulpn | grep endlessh`
+     
                   
   <img src="https://github.com/Tripati3000/ssh-honeypotlab/assets/160244601/07f646d3-1990-48b1-9da1-81351d353b1e"             height="80%" width="80%" alt="SIEM System steps"/>
   
 
 
-14. **Now you can open any terminal and try to login with the "Port 22" And it shows nothing just the cursor stopped at his way**
+# Now If anyone tries to login "port 22" the cursor will stopped at his place an delay
