@@ -37,5 +37,7 @@ By following these steps, you can set up an SSH Endlessh honeypot to detect and 
 5. **Verify your folder by this command** `which endlessh` & `ls`
 
 6. **After Verification of folder Run this command to copy the file to another folder**
+
+              `sudo cp util/endlessh.service /etc/systemd/system`
  
  <img src="https://github.com/Tripati3000/ssh-honeypotlab/assets/160244601/26d97806-44a5-47be-9da1-b355243f1c5a" height="80%" width="80%" alt="SIEM System steps"/>
