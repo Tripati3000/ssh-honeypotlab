@@ -27,3 +27,5 @@ By following these steps, you can set up an SSH Endlessh honeypot to detect and 
 `git clone https://github.com/skeeto/endlessh`
 
 **After its done use command** `cd endlessh`
+
+**After changing directory Use the command**
