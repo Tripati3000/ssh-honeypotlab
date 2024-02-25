@@ -4,7 +4,9 @@
 # What is a SSH Honeypot ?
 A SSH honeypot is a security mechanism designed to detect and deflect unauthorized access attempts to a network or server by mimicking a legitimate SSH (Secure Shell) service. It operates by presenting a fake SSH server that appears real to potential attackers, enticing them to interact with it. The honeypot logs all activities, enabling administrators to analyze intrusion attempts, gather information about attackers, and enhance their overall cybersecurity defenses.
 
-# Tools 
+# what is an Endlessh tarpit 
+Endlessh is a tool used for setting up an SSH honeypot. A tarpit, in this context, refers to a service that intentionally slows down or "traps" potential attackers, making it difficult for them to carry out their attacks quickly. So, an Endlessh tarpit is essentially an SSH honeypot created using Endlessh that traps and slows down SSH attackers, wasting their time and resources.
+
 # Overview of the tasks
 Creating an SSH Endlessh honeypot involves several steps:
 
@@ -22,7 +24,7 @@ Creating an SSH Endlessh honeypot involves several steps:
 
 By following these steps, you can set up an SSH Endlessh honeypot to detect and deter potential attackers while gathering valuable insights into their activities.
 
-# Step 1
+# Walkthrough 
 **Go to your Linux or Virtual machine and copy paste this code.**
 `git clone https://github.com/skeeto/endlessh`
 
@@ -63,7 +65,12 @@ By following these steps, you can set up an SSH Endlessh honeypot to detect and 
 
                  `sudo systemctl start endlessh`
     
-13  **Now verify that it is running on "Port 22" by running this command**
+13.  **Now verify that it is running on "Port 22" by running this command**
 
                   `netstat -tulpn | grep endlessh`
+                  
+  <img src="https://github.com/Tripati3000/ssh-honeypotlab/assets/160244601/07f646d3-1990-48b1-9da1-81351d353b1e"             height="80%" width="80%" alt="SIEM System steps"/>
+  
 
+
+14. **Now you can open any terminal and try to login with the "Port 22" And it shows nothing just the cursor stopped at his way**
